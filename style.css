@@ -538,10 +538,6 @@
     list-style: none;
     margin-bottom: 1em; 
 }
- .works>li { 
-    padding-left: 0;
-    margin-bottom: 1em; 
-}
 .talks {
     padding-left: 0;
 }
