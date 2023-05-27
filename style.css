@@ -406,7 +406,7 @@
  }
  h1 {
      text-align: left;
-     margin-bottom: 2em;
+     margin-bottom: 1em;
      margin-top: 1em;
  }
  table {
@@ -537,6 +537,17 @@
     padding-left: 0;
     list-style: none;
     margin-bottom: 1em; 
+}
+ .works>li { 
+    padding-left: 0;
+    margin-bottom: 1em; 
+}
+.talks {
+    padding-left: 0;
+}
+.talks>li {
+    list-style: none;
+    padding-left: 0;
 }
 .youtube_video {
     margin-bottom: 2em;
