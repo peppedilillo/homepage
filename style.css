@@ -446,16 +446,13 @@
 p img {
     display: inline-block;
  }
-
-.byline {
+footer {
     clear: both;
     margin-top: 4em;
     width: 100%;
+}
+.byline {
     text-align: right;
- }
-.byline a {
-    display: inline-block;
-    color: #820002;
  }
 .logo {
     margin-bottom: 1em;
@@ -477,4 +474,19 @@ p img {
 }
 .youtube_video {
     margin-bottom: 2em;
+}
+.scrollable-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.scrollable-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .scrollable-wrapper img {
+        max-width: 250%;
+    }
 }
