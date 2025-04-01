@@ -391,7 +391,7 @@
     padding-left: 1em;
     padding-right: 1em;
     color: #272727;
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: 'Courier Prime', bold;
     line-height: 200%;
  }
@@ -464,6 +464,11 @@ footer {
     padding-left: 0;
     list-style: none;
     margin-bottom: 1em; 
+}
+.stuff>li { 
+   padding-left: 0;
+   list-style: none;
+   margin-bottom: 1em; 
 }
 .talks {
     padding-left: 0;
