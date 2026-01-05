@@ -1,121 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Giuseppe Dilillo's homepage</title>
-  <meta name="description" content="Welcome to my personal homepage, where I share insights on my projects, studies, and ongoing interests in computational astrophysics and space sciences." />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giuseppe Dilillo's homepage</title>
+    <meta name="description"
+          content="Welcome to my personal homepage, my name is Giuseppe Dilillo and here's I share stuffs on my projects, studies, and ongoing interests."/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <script>
+        (function () {
+            var theme = localStorage.getItem('theme');
+            if (theme) document.documentElement.classList.add(theme);
+        })();
+    </script>
 </head>
 <body>
-  <h1>
-  <a href="http://gdilillo.com/" class="logo">
-    <img src="./pics/nome.png" alt="Giuseppe 'Peppe' Dilillo's homepage" />
-  </a>
+<p style="text-align: right; margin: 0; font-size: 0.85rem;">
+    <a href="#" id="theme-toggle" style="color: var(--text-light);">
+        switch to dark theme
+    </a>
+</p>
+<h1>
+    peppe's homepage
 </h1>
 
-Welcome to my homepage and thanks for the visit!
-<ul>
-  <li>Write me at <a href="mailto:peppedilillo@gmail.com" class="email">giuseppe.dilillo@inaf.it</a>.
-  <li>I have code on <a href="https://github.com/peppedilillo">github</a>.
-  <li>Obligatory <a href="https://www.linkedin.com/in/giuseppe-dilillo-9b9025207/">linkedin</a> account. </li>
-  <li>..and <a href="https://youtu.be/Wlpnc5EMvM4">this</a> is me playing bass 😄.</li>
-</ul>
+<p>
+    Hey, welcome to my homepage and thanks for the visit.
+    My name is Giuseppe Dilillo, but everyone calls me Peppe.
+    I am 35 years old, I was born in Barletta, Italy, and I am now living in Frascati, near Rome.
+    This is where I share stuffs on my projects, studies, and ongoing interests.
+</p>
 
-<h2>WORKS</h2>
-<iframe width="560" height="315" class="youtube_video"
-  src="https://www.youtube.com/embed/eO6OaVnbqaY" 
-  title="YouTube video player"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
-<ul class="works">
-  <li> SPACE - 
-    I worked on a number of subjects related to <a href="https://www.hermes-sp.eu/">HERMES-Pathfinder</a>, a constellation of nanosatellites to monitor cosmic explosions called gamma-ray bursts. 
-    Breaking news: HERMES <a href="https://youtu.be/ue48gaS7q30?si=5c5t3CE-fPRIJ-jP">launched</a> at 6:39UTC of 2025 March 15 from Vandenberg, California, on-board Space X Falcon 9 Transporter 13 --- yuhuu <span style="font-size: 6px;">please god make it work</span>! <br>
-    Beside software and data, I used to spend a lot of my time in labs.
-    In 2019 I took part to an experimental campaign to qualify GAGG:Ce scintillators. Between 2022 and 2023 I worked at the calibration of the seven HERMES scientific payloads.
-    For this purpose, I wrote <a href="https://github.com/peppedilillo/mescal">mescal</a>, a software to tag each photon observed by a siswich detector with an energy measure. 
-    During 2024 I also worked on LEM-X, a lunar high-energy observatory under study for the ASI Earth-Moon-Mars program, studying the impact of the mooning site on scientific operation, and writing an <a href="https://github.com/peppedilillo/bloodmoon">implementation of IROS</a> tailored for this instrument.
-    Recently I got involved with LSST and am now working on a tool to cross-match alerts from space-borne instruments with those from this cool oncoming telescope.
-  </li> 
-  <li> ALGORITHMS - 
-    With Kes Ward and others, I worked on an algorithm called <a href="http://dx.doi.org/10.3847/1538-4357/ad15ff">Poisson-FOCuS</a>.
-    It is a fast and powerful technique to detect anomalies in time series of counts, which can be used for discovering gamma-ray bursts.
-    In particular, I implemented an HERMES-specific version of Poisson-FOCuS and tested its performance on real and simulated data against other algorithms.
-    For this purpose I also wrote a software which simulates detectors, noise and gamma-ray burst called Synthburst.
-    Poisson-FOCuS is core to <a href="https://github.com/peppedilillo/hbstools">hbstools</a>, a library I wrote to automatize the offline search for GRBs in HERMES data.
-  </li>
+<p>
+    You can write me at <a href="mailto:giuseppe.dilillo@inaf.it" class="email">giuseppe.dilillo@inaf.it</a> or <a
+        href="mailto:peppedilillo@gmail.com" class="email">peppedilillo@gmail.com</a>.
+    I publish most of my code, both for work and for passion, on <a href="https://github.com/peppedilillo">github</a>.
+    If you wish you can check my pretty vacant <a href="https://www.linkedin.com/in/giuseppe-dilillo-9b9025207/">linkedin</a>
+    account but I honestly hate that s***.
+</p>
 
-A list of my articles is available on 
-<a href="https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A%22Dilillo%2C%20Giuseppe%22&sort=date%20desc%2C%20bibcode%20desc">NASA/ADS</a> 
-or <a href="https://www.researchgate.net/profile/Giuseppe-Dilillo-2">Research Gate</a>. 
-</ul>
+<p>
+    Hope you enjoy the stay.. Take care!
+</p>
+<hr>
+<h2>Work</h2>
 
-<h3>Talks</h3>
-My latest talks and workshops:
+<p>
+    I am an astrophysicist and experimental physicist with an interest for computer science and applied math.
+    Currently, I work for the Italian National Institute for Astrophysics, at the Italian Space Agency Space Science
+    Data Centre.
+    There, I mainly deal with data and software supporting high-energy space missions.
+    In the past I spent a lot of my time in labs, where I worked with high-energy, solid-state detectors and
+    nanosatellites.
+</p>
+
+<p>
+    A complete list of my articles is available on
+    <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A%22Dilillo%2C%20Giuseppe%22&sort=date%20desc%2C%20bibcode%20desc">NASA/ADS</a>
+    or <a href="https://www.researchgate.net/profile/Giuseppe-Dilillo-2">Research Gate</a>.
+</p>
+
+<h3>Conferences</h3>
+<p>
+    My latest talks and workshops:
+</p>
 <ul class="talks">
-  <li> 2024 JULY 20 - <a href="https://www.cospar2024.org/">COSPAR 2024</a>, Busan, Korea.</li>
-  <li> 2023 OCTOBER 1 - <a href="https://astroinfo2023.org/">Astroinformatics 2023</a>, Naples, Italy.</li>
-  <li> 2023 APRIL 19 - <a href="https://gateway.newton.ac.uk/event/tgm130">Statistical Scalability for Data Streams</a>, London, UK.</li>
-  <li> 2022 SEPTEMBER 12 - <a href="https://hack100.inaf.it/grbv">V Congresso Nazionale GRB</a>, Trieste, Italy.</li>
+    <li> 2025 MAY 18 - <a
+            href="https://lsstdiscoveryalliance.org/event/shaping-the-future-of-time-domain-astronomy-with-lsst/">Shaping
+        the Future of Time-Domain Astronomy with LSST</a>, Rio De Janeiro, Brazil.
+    </li>
+    <li> 2024 JULY 20 - <a href="https://www.cospar2024.org/">COSPAR 2024</a>, Busan, Korea.</li>
+    <li> 2023 OCTOBER 1 - <a href="https://astroinfo2023.org/">Astroinformatics 2023</a>, Naples, Italy.</li>
+    <li> 2023 APRIL 19 - <a href="https://gateway.newton.ac.uk/event/tgm130">Statistical Scalability for Data
+        Streams</a>, London, UK.
+    </li>
+    <li> 2022 SEPTEMBER 12 - <a href="https://hack100.inaf.it/grbv">V Congresso Nazionale GRB</a>, Trieste, Italy.</li>
 </ul>
 
-<h2>STUFF</h2>
-Here some things I found interesting or fun this year. Five max per section, updated when I feel like it.
-<h2 class="byline">2025</h2>
-<h3>Books & Comics</h3>
-<ul>
-  <li><i>Steppenwolf</i> by Hermann Hesse (Oscar Mondadori, 1927). A giant.</li>
-  <li><i>Pharmako/Gnosis</i> by Dave Pendell (Add editore, 2005).</li>
-</ul>
-<h3>Movies</h3>
-<ul>
-  <li><i>Nosferatu</i> by Robert Eggers (2025).</li>
-</ul>
+<hr>
+<h2>More</h2>
+<p>
+    I like music, a lot!
+    I play the <a href="https://youtu.be/Wlpnc5EMvM4">bass</a> and have dabbled with many other instruments.
+    I also like good reads, horror movies and vidya.
+    These are some interesting stuff I discovered this year. Five max per section, updated when I feel like it.
+</p>
 <h3>Music</h3>
 <ul>
-  <li><i>On Fire</i> by Galaxie 500 (Rough Trade, 1989).</li>
-  <li><i>12</i> by Westside Gunn (Griselda, 2025).</li>
+    <li><i>On Fire</i> by Galaxie 500 (Rough Trade, 1989).</li>
+    <li><i>12</i> by Westside Gunn (Griselda, 2025).</li>
+    <li><i>Getting Killed</i> by Geese (Partisan, 2025).</li>
+    <li><i>hexed!</i> by Aya (Hyperdub, 2025).</li>
+    <li><i>Safe as Milk</i> by Captain Beefheart (Buddah Records, 1967).</li>
 </ul>
-<h2 class="byline">2024</h2>
+<h3>Movies & TV</h3>
+<ul>
+    <li><i>Nosferatu</i> by Robert Eggers (2025).</li>
+    <li><i>Dracula</i> by Luc Besson (2025).</li>
+    <li><i>Baxter</i> by Jérôme Boivin (1989).</li>
+    <li><i>La città proibita</i> by Gabriele Mainetti (2025).</li>
+    <li><i>Pluribus</i> by Vince Gilligan (2025).</li>
+</ul>
 <h3>Books & Comics</h3>
 <ul>
-  <li><i>The Black Swan</i> by Nichola Nassim Taleb (Il Saggiatore).</li>
-  <li><i>Swamp Thing Vol. 1, 2, 3</i> by Moore, Bissette, Totleben (Panini).</li>
-  <li><i>The Little Book of Exoplanets</i> by Joshua N. Winn (Princeton University Press).</li>
-  <li><i>Chip War: The Fight for the World's Most Critical Technology</i> by Chris Miller (Scribner).</li>
-</ul>
-<h3>Movies</h3>
-<ul>
-  <li><i>The Substance</i> by Coralie Fargeat (2024).</li>
-  <li><i>Civil War</i> by Alex Garland (2024).</li>
-  <li><i>Bliss</i> by Mike Cahill (2021).</li>
-  <li><i>Ex Drummer</i> by Koen Mortier (2007).</li>
-  <li><i>Falling Leaves</i> by Aki Kaurismäki (2023).</li>
-</ul>
-<h3>Music</h3>
-<ul>
-  <li><i>Draoidh</i> by Rustie (Warp).</li>
-  <li><i>FROG</i> by SUCK (La Pochette Surprise Record).</li>
-  <li>This intoxicating shitty <a href="https://open.spotify.com/playlist/4J9mD4c0io1GpCbdvcyGuP?si=9608fcb3065d4c40">playlist</a>.</li>
-  <li><i>Breathe..Godspeed</i> by Verraco (Timedance).</li>
-  <li><i>BRAT</i> by Charli xcx (Atlantic).</li>
-</ul>
-<h3>Random</h3>
-<ul>
-  <li><a href="https://100r.co/site/weathering_software_winter.html">Weathering Software Winter</a> by Hundred Rabbits.</li>
-  <li><a href="https://www.robinsloan.com/notes/home-cooked-app/">An app can be a home-cooked meal</a> by Robin Sloan.</li>
-  <li><a href="https://www.robinsloan.com/lab/new-avenues/">A year of new avenues</a> by Robin Sloan.</li>
-  <li>The best <a href="https://youtu.be/JSKpsKMTxA8?si=c-il2b1Rwxln3ATG">video</a> on the web.</li>
+    <li><i>Steppenwolf</i> by Hermann Hesse (Oscar Mondadori, 1927).</li>
+    <li><i>Pharmako/Gnosis</i> by Dave Pendell (Add editore, 2005).</li>
+    <li><i>Count Zero</i> by William Gibson (Mondadori, 2017).</li>
 </ul>
 
 
-That's it for now, thanks again for your visit and till next time.. Take care!
+<p style="text-align: right; margin: 0; font-size: 0.85rem; color: var(--text-light);">
+    Past years recommends: <a href="2024.html">2024</a>
+</p>
+
 <footer>
-  <p class="byline">April 2025©</p>
+    Made by me, using a theme from <a href="https://www.cssbed.com/">CSSBed</a>. Last update: January 2026</p>
 </footer>
+<script src="theme.js"></script>
 </body>
 </html>
