@@ -132,7 +132,7 @@ body > footer {
     color: var(--text-light);
     font-size: 0.9rem;
     text-align: center;
-    border-top: var(--border-width) solid var(--border);
+    border-top: var(--border-width) solid var(--accent);
 }
 
 /* Format headers */
@@ -566,7 +566,7 @@ input[type="file"] {
 hr {
     border: none;
     height: var(--border-width);
-    background: var(--border);
+    background: var(--accent);
     margin: 1rem auto;
     width: 100%;
 }
