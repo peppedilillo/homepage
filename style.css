@@ -150,6 +150,10 @@ h3 {
     margin-top: 3rem;
 }
 
+h2 + h3 {
+    margin-top: 0;
+}
+
 h4 {
     font-size: 1.44rem;
 }
